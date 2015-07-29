@@ -1,0 +1,9 @@
+com\sunjin\web\model\User.class
+com\sunjin\web\model\BoardMessage.class
+com\sunjin\web\utils\HibernateUtil.class
+com\sunjin\web\dao\BoardMessageDao.class
+com\sunjin\web\dao\BoardMessageDaoImpl.class
+com\sunjin\web\controller\BoardListController.class
+com\sunjin\web\controller\HelloControllerTest.class
+com\sunjin\web\controller\CommentListComtroller.class
+com\sunjin\web\controller\BoardMessageController.class

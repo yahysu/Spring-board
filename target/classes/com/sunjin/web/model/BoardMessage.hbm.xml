@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- 모델쪽의 BoardMessage 클래스와 테이블 Board_Messages_TB를 매핑한다. -->
+<hibernate-mapping package="com.sunjin.web.model">
+	<class name="BoardMessage" table="Board_Messages_TB">
+		<id name="messageSq" column="SQ"></id>
+		<property name="userSq" column="User_SQ" />
+		<property name="messageStatusCd" column="Message_Status_CD" />
+		<property name="insertTime" column="Insert_Time" />
+		<property name="modifyTime" column="Modify_Time" />
+		<property name="messageTitle" column="Message_Title" />
+		<property name="messageText" column="Message_Text" />
+	</class>
+</hibernate-mapping>
